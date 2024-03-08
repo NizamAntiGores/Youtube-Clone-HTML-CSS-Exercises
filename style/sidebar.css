@@ -1,41 +1,40 @@
-.sidebar{
-    display: flex;
-    flex-direction: column;
-    width: 100px;
-    background-color: white;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    z-index: 200;
-    top: 70px;
-    left: 0px;
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 200;
+  top: 70px;
+  left: 0px;
 
-    padding-top: 30px;
-    flex-shrink: 0;
-    height:550px;
-    
-    
+  padding-top: 30px;
+  flex-shrink: 0;
+  height: 550px;
 }
 
-.sidebar-toolkit img{
-    height: 35px;
-    
-    
+.sidebar-toolkit img {
+  height: 35px;
 }
-.sidebar-toolkit p{
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 8px;
-
+.sidebar-toolkit p {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 8px;
+}
+.sidebar-toolkit {
+  cursor: pointer;
+}
+.sidebar-toolkit:hover {
+  background-color: gray;
 }
 .sidebar-home,
 .sidebar-explore,
 .sidebar-subscriptions,
 .sidebar-originals,
 .sidebar-youtube-music,
-.sidebar-library{
-    display: flex;
-    flex-direction: column;
-    
+.sidebar-library {
+  display: flex;
+  flex-direction: column;
 }
-
