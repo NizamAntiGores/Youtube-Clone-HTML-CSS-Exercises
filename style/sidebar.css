@@ -1,40 +1,32 @@
 .sidebar {
-  display: flex;
-  flex-direction: column;
   width: 100px;
-  background-color: white;
-  justify-content: space-between;
-  align-items: center;
+  background-color: rgb(255, 255, 255);
   position: fixed;
   z-index: 200;
   top: 70px;
   left: 0px;
-
-  padding-top: 30px;
-  flex-shrink: 0;
-  height: 550px;
-}
-
-.sidebar-toolkit img {
-  height: 35px;
-}
-.sidebar-toolkit p {
-  font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
-  padding-top: 8px;
+  bottom: 0px;
+  padding-top: 20px;
+  
 }
 .sidebar-toolkit {
+  height: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   cursor: pointer;
+  margin-bottom: 10px;
+
+}
+.sidebar-toolkit img {
+  height:36px ;
+  padding-bottom: 8px;
+}
+.sidebar div{
+  font-family: arial;
+  font-size: 13px;
 }
 .sidebar-toolkit:hover {
-  background-color: gray;
-}
-.sidebar-home,
-.sidebar-explore,
-.sidebar-subscriptions,
-.sidebar-originals,
-.sidebar-youtube-music,
-.sidebar-library {
-  display: flex;
-  flex-direction: column;
+  background-color: rgb(206, 206, 206);
 }
